@@ -1,0 +1,21 @@
+{
+  "format": "nitrobolt-project",
+  "version": 1,
+  "metadata": {
+    "extensions": [],
+    "meta": {
+      "agent": "",
+      "platform": {
+        "name": "NitroBolt",
+        "url": "https://nitrobolt.org/"
+      },
+      "semver": "3.0.0",
+      "vm": "0.2.0"
+    },
+    "monitors": []
+  },
+  "targets": [
+    "Stage/target.json",
+    "Sprite1/target.json"
+  ]
+}

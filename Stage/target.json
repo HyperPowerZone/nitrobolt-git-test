@@ -1,0 +1,36 @@
+{
+  "format": "nitrobolt-target",
+  "version": 1,
+  "target": {
+    "assets": [],
+    "broadcasts": {},
+    "costumes": [
+      {
+        "dataFormat": "svg",
+        "file": "assets/backdrop1.svg",
+        "name": "backdrop1",
+        "rotationCenterX": 240,
+        "rotationCenterY": 180
+      }
+    ],
+    "currentCostume": 0,
+    "groups": {},
+    "isStage": true,
+    "layerOrder": 0,
+    "lists": {},
+    "name": "Stage",
+    "sounds": [],
+    "tables": {},
+    "tempo": 60,
+    "textToSpeechLanguage": null,
+    "variables": {
+      "`jEk@4|i[#Fk?(8x)AV.-my variable": [
+        "my variable",
+        0
+      ]
+    },
+    "videoState": "on",
+    "videoTransparency": 50,
+    "volume": 100
+  }
+}

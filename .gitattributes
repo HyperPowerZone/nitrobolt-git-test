@@ -1,0 +1,23 @@
+project.json text eol=lf
+*/target.json text eol=lf
+*/blocks.json text eol=lf
+*/assets/*.gif binary
+*/assets/*.ico binary
+*/assets/*.jpeg binary
+*/assets/*.jpg binary
+*/assets/*.m4a binary
+*/assets/*.mp3 binary
+*/assets/*.mp4 binary
+*/assets/*.ogg binary
+*/assets/*.otf binary
+*/assets/*.pdf binary
+*/assets/*.png binary
+*/assets/*.sb3 binary
+*/assets/*.ttf binary
+*/assets/*.wav binary
+*/assets/*.webm binary
+*/assets/*.webp binary
+*/assets/*.woff binary
+*/assets/*.woff2 binary
+*/assets/*.zip binary
+assets/* binary
