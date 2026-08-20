@@ -1,6 +1,38 @@
 {
   "format": "nitrobolt-blocks",
   "version": 1,
-  "scripts": [],
+  "scripts": [
+    {
+      "id": "nSdSO6}v8L51b7|n,DA~",
+      "position": {
+        "x": 190,
+        "y": 264
+      },
+      "xml": "<block\n                id=\"nSdSO6}v8L51b7|n,DA~\"\n                type=\"event_whenflagclicked\"\n                x=\"189.77777777777777\" y=\"263.55555555555566\"\n                \n            ><next><block\n                id=\"7^e[*FdsAaDvX@X:P=zo\"\n                type=\"control_forever\"\n                \n                \n            ></block></next></block>",
+      "blocks": {
+        "7^e[*FdsAaDvX@X:P=zo": {
+          "fields": {},
+          "inputs": {},
+          "next": null,
+          "opcode": "control_forever",
+          "parent": "nSdSO6}v8L51b7|n,DA~",
+          "shadow": false,
+          "topLevel": false
+        },
+        "nSdSO6}v8L51b7|n,DA~": {
+          "fields": {},
+          "inputs": {},
+          "next": "7^e[*FdsAaDvX@X:P=zo",
+          "opcode": "event_whenflagclicked",
+          "parent": null,
+          "shadow": false,
+          "topLevel": true,
+          "x": 190,
+          "y": 264
+        }
+      },
+      "comments": {}
+    }
+  ],
   "workspaceComments": {}
 }
