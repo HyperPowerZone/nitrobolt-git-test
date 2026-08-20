@@ -5,14 +5,19 @@
     {
       "id": "nSdSO6}v8L51b7|n,DA~",
       "position": {
-        "x": 225,
-        "y": 240
+        "x": 212,
+        "y": 249
       },
-      "xml": "<block\n                id=\"nSdSO6}v8L51b7|n,DA~\"\n                type=\"event_whenflagclicked\"\n                x=\"225.33333333333331\" y=\"239.85185185185196\"\n                \n            ><next><block\n                id=\"7^e[*FdsAaDvX@X:P=zo\"\n                type=\"control_forever\"\n                \n                \n            ></block></next></block>",
+      "xml": "<block\n                id=\"nSdSO6}v8L51b7|n,DA~\"\n                type=\"event_whenflagclicked\"\n                x=\"211.99999999999997\" y=\"248.74074074074085\"\n                \n            ><next><block\n                id=\"lK7Of7Ffdxec!*-jQ`hg\"\n                type=\"control_forever\"\n                \n                \n            ><value name=\"SUBSTACK\"><block\n                id=\"xS4jjsqZ;XIWgI+x7h/!\"\n                type=\"motion_movesteps\"\n                \n                \n            ><value name=\"STEPS\"><shadow\n                id=\"X0(uhO`).)cl:y%Rtbf;\"\n                type=\"math_number\"\n                \n                \n            ><field name=\"NUM\">boii</field></shadow></value></block></value></block></next></block>",
       "blocks": {
-        "7^e[*FdsAaDvX@X:P=zo": {
+        "lK7Of7Ffdxec!*-jQ`hg": {
           "fields": {},
-          "inputs": {},
+          "inputs": {
+            "SUBSTACK": [
+              2,
+              "xS4jjsqZ;XIWgI+x7h/!"
+            ]
+          },
           "next": null,
           "opcode": "control_forever",
           "parent": "nSdSO6}v8L51b7|n,DA~",
@@ -22,13 +27,30 @@
         "nSdSO6}v8L51b7|n,DA~": {
           "fields": {},
           "inputs": {},
-          "next": "7^e[*FdsAaDvX@X:P=zo",
+          "next": "lK7Of7Ffdxec!*-jQ`hg",
           "opcode": "event_whenflagclicked",
           "parent": null,
           "shadow": false,
           "topLevel": true,
-          "x": 225,
-          "y": 240
+          "x": 212,
+          "y": 249
+        },
+        "xS4jjsqZ;XIWgI+x7h/!": {
+          "fields": {},
+          "inputs": {
+            "STEPS": [
+              1,
+              [
+                4,
+                "boii"
+              ]
+            ]
+          },
+          "next": null,
+          "opcode": "motion_movesteps",
+          "parent": "lK7Of7Ffdxec!*-jQ`hg",
+          "shadow": false,
+          "topLevel": false
         }
       },
       "comments": {}
