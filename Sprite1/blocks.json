@@ -5,10 +5,10 @@
     {
       "id": "nSdSO6}v8L51b7|n,DA~",
       "position": {
-        "x": 190,
-        "y": 264
+        "x": 225,
+        "y": 240
       },
-      "xml": "<block\n                id=\"nSdSO6}v8L51b7|n,DA~\"\n                type=\"event_whenflagclicked\"\n                x=\"189.77777777777777\" y=\"263.55555555555566\"\n                \n            ><next><block\n                id=\"7^e[*FdsAaDvX@X:P=zo\"\n                type=\"control_forever\"\n                \n                \n            ></block></next></block>",
+      "xml": "<block\n                id=\"nSdSO6}v8L51b7|n,DA~\"\n                type=\"event_whenflagclicked\"\n                x=\"225.33333333333331\" y=\"239.85185185185196\"\n                \n            ><next><block\n                id=\"7^e[*FdsAaDvX@X:P=zo\"\n                type=\"control_forever\"\n                \n                \n            ></block></next></block>",
       "blocks": {
         "7^e[*FdsAaDvX@X:P=zo": {
           "fields": {},
@@ -27,8 +27,8 @@
           "parent": null,
           "shadow": false,
           "topLevel": true,
-          "x": 190,
-          "y": 264
+          "x": 225,
+          "y": 240
         }
       },
       "comments": {}
